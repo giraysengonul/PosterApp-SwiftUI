@@ -11,6 +11,8 @@
 		C445A8B22854AB6E0086284F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C445A8B12854AB6E0086284F /* ContentView.swift */; };
 		C445A8B42854AB700086284F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C445A8B32854AB700086284F /* Assets.xcassets */; };
 		C445A8B72854AB700086284F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C445A8B62854AB700086284F /* Preview Assets.xcassets */; };
+		C445A8C22854B3D70086284F /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C445A8C12854B3D70086284F /* InfoPanelView.swift */; };
+		C445A8C42854BE980086284F /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C445A8C32854BE980086284F /* ControlImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C445A8B12854AB6E0086284F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C445A8B32854AB700086284F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C445A8B62854AB700086284F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C445A8C12854B3D70086284F /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		C445A8C32854BE980086284F /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		C445A8BE2854AD680086284F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C445A8C12854B3D70086284F /* InfoPanelView.swift */,
+				C445A8C32854BE980086284F /* ControlImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C445A8C42854BE980086284F /* ControlImageView.swift in Sources */,
+				C445A8C22854B3D70086284F /* InfoPanelView.swift in Sources */,
 				C445A8B22854AB6E0086284F /* ContentView.swift in Sources */,
 				C445A8B02854AB6E0086284F /* PosterApp_SwiftUIApp.swift in Sources */,
 			);
